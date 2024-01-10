@@ -1,0 +1,12 @@
+.clock {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  border-radius: 3px;
+  background-color: aquamarine;
+
+  font-family: "Dancing Script", cursive;
+}
