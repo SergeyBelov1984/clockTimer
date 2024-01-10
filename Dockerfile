@@ -1,6 +1,6 @@
 FROM node:latest
 COPY . /app
 WORKDIR /app
-RUN npm c
+RUN npm i
 EXPOSE 3000
 CMD ["npm", "run", "start"]
